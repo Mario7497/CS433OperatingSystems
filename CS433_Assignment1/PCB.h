@@ -25,6 +25,17 @@ public:
     ProcState state;
 
     // TODO: Add constructor and other necessary functions for the PCB class
+    //Constructor Deconstructor
+    PCB(unsigned int id, unsigned int priority, ProcState state);
+    ~PCB();
+
+    //Getters and Setters
+    unsigned int getId() const;
+    void         setId(unsigned int id);
+    unsigned int getPriority() const;
+    void         setPriority(unsigned int priority);
+    ProcState    getState() const;
+    void         setState(ProcState state);
 };
 //=============================================================================================
 //=============================================================================================
@@ -33,6 +44,14 @@ public:
 
 class PCBTable {
 // TODO: Add your implementation of the PCBTable
+private:
+    const static int TABLE_SIZE = 30;
+    PCB *table[TABLE_SIZE];
+
+public:
+    PCBTable();
+
+    PCB *getPCB_Element(int index);
 };
 //=============================================================================================
 //=============================================================================================

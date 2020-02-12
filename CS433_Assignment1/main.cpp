@@ -14,13 +14,12 @@ int main(int argc, char* argv[]) {
 
     // TODO: Add your code for Test 1
     std::cout << "Performing Test 1" << std::endl;
+    ReadyQueue *q1 = new ReadyQueue();
+    PCBTable *pcbTable = new PCBTable();
+    std::cout << "End of Test 2";
 
     // TODO: Add your code for Test 2
     std::cout << "Performing Test 2" << std::endl;
-
-    ReadyQueue *test1 = new ReadyQueue();
-    
-
 
     return 0;
 }
