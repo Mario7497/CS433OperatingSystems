@@ -14,7 +14,33 @@
  * can be selected next.
  */
 class ReadyQueue {
+private:
 public:
+    int getSize() const;
+
+    void setSize(int size);
+
+private:
+    int size; //Size of the queue
+
+    class Node { // private inner class Node for the linked list
+    public:
+        PCB *data;
+        Node *next, *previouse;
+
+        Node(PCB *tempData, Node *nextNode, Node *previousNode){
+            data = tempData;
+            next = nextNode;
+            previouse = previousNode;
+        }
+    };
+
+    Node *head = nullptr, *tail= nullptr;
+
+public:
+    // Constructor
+    ReadyQueue();
+
     // TODO: Implement the required functions. Add necessary member fields and functions
     // You may use different parameter signatures from the example below
 
@@ -24,8 +50,8 @@ public:
     // remove and return the PCB with the highest priority from the queue
     PCB* removeHighest();
 
-    // Returns the number of elements in the queue.
-    int size();
+    //Size of the queue
+    int getSize();
 
     // Prints the queue contents to standard output.
     void display();

@@ -6,25 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/User/CLionProjects/CS433_Assignment1/PCB.cpp
+C:/Users/User/Github Repositories/CS433OperatingSystems/CS433OperatingSystems/CS433_Assignment1/PCB.h
+
+C:/Users/User/Github Repositories/CS433OperatingSystems/CS433OperatingSystems/CS433_Assignment1/ReadyQueue.cpp
+ReadyQueue.h
+C:/Users/User/Github Repositories/CS433OperatingSystems/CS433OperatingSystems/CS433_Assignment1/ReadyQueue.h
+
+C:/Users/User/Github Repositories/CS433OperatingSystems/CS433OperatingSystems/CS433_Assignment1/ReadyQueue.h
 PCB.h
-C:/Users/User/CLionProjects/CS433_Assignment1/PCB.h
-
-C:/Users/User/CLionProjects/CS433_Assignment1/PCB.h
-
-C:/Users/User/CLionProjects/CS433_Assignment1/ReadyQueue.cpp
-ReadyQueue.h
-C:/Users/User/CLionProjects/CS433_Assignment1/ReadyQueue.h
-
-C:/Users/User/CLionProjects/CS433_Assignment1/ReadyQueue.h
-
-C:/Users/User/CLionProjects/CS433_Assignment1/main.cpp
-iostream
--
-cstdlib
--
-sys/time.h
--
-ReadyQueue.h
-C:/Users/User/CLionProjects/CS433_Assignment1/ReadyQueue.h
+C:/Users/User/Github Repositories/CS433OperatingSystems/CS433OperatingSystems/CS433_Assignment1/PCB.h
 

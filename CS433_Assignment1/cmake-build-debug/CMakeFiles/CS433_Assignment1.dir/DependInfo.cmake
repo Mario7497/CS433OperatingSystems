@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/User/CLionProjects/CS433_Assignment1/PCB.cpp" "C:/Users/User/CLionProjects/CS433_Assignment1/cmake-build-debug/CMakeFiles/CS433_Assignment1.dir/PCB.cpp.obj"
-  "C:/Users/User/CLionProjects/CS433_Assignment1/ReadyQueue.cpp" "C:/Users/User/CLionProjects/CS433_Assignment1/cmake-build-debug/CMakeFiles/CS433_Assignment1.dir/ReadyQueue.cpp.obj"
-  "C:/Users/User/CLionProjects/CS433_Assignment1/main.cpp" "C:/Users/User/CLionProjects/CS433_Assignment1/cmake-build-debug/CMakeFiles/CS433_Assignment1.dir/main.cpp.obj"
+  "C:/Users/User/Github Repositories/CS433OperatingSystems/CS433OperatingSystems/CS433_Assignment1/PCB.cpp" "C:/Users/User/Github Repositories/CS433OperatingSystems/CS433OperatingSystems/CS433_Assignment1/cmake-build-debug/CMakeFiles/CS433_Assignment1.dir/PCB.cpp.obj"
+  "C:/Users/User/Github Repositories/CS433OperatingSystems/CS433OperatingSystems/CS433_Assignment1/ReadyQueue.cpp" "C:/Users/User/Github Repositories/CS433OperatingSystems/CS433OperatingSystems/CS433_Assignment1/cmake-build-debug/CMakeFiles/CS433_Assignment1.dir/ReadyQueue.cpp.obj"
+  "C:/Users/User/Github Repositories/CS433OperatingSystems/CS433OperatingSystems/CS433_Assignment1/main.cpp" "C:/Users/User/Github Repositories/CS433OperatingSystems/CS433OperatingSystems/CS433_Assignment1/cmake-build-debug/CMakeFiles/CS433_Assignment1.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

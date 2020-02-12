@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\User\CLionProjects\CS433_Assignment1
+CMAKE_SOURCE_DIR = "C:\Users\User\Github Repositories\CS433OperatingSystems\CS433OperatingSystems\CS433_Assignment1"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\User\CLionProjects\CS433_Assignment1\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\User\Github Repositories\CS433OperatingSystems\CS433OperatingSystems\CS433_Assignment1\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CS433_Assignment1.dir/depend.make
@@ -58,42 +58,42 @@ include CMakeFiles/CS433_Assignment1.dir/flags.make
 
 CMakeFiles/CS433_Assignment1.dir/main.cpp.obj: CMakeFiles/CS433_Assignment1.dir/flags.make
 CMakeFiles/CS433_Assignment1.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\CLionProjects\CS433_Assignment1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CS433_Assignment1.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CS433_Assignment1.dir\main.cpp.obj -c C:\Users\User\CLionProjects\CS433_Assignment1\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\User\Github Repositories\CS433OperatingSystems\CS433OperatingSystems\CS433_Assignment1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CS433_Assignment1.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CS433_Assignment1.dir\main.cpp.obj -c "C:\Users\User\Github Repositories\CS433OperatingSystems\CS433OperatingSystems\CS433_Assignment1\main.cpp"
 
 CMakeFiles/CS433_Assignment1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS433_Assignment1.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\CLionProjects\CS433_Assignment1\main.cpp > CMakeFiles\CS433_Assignment1.dir\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\User\Github Repositories\CS433OperatingSystems\CS433OperatingSystems\CS433_Assignment1\main.cpp" > CMakeFiles\CS433_Assignment1.dir\main.cpp.i
 
 CMakeFiles/CS433_Assignment1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS433_Assignment1.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\CLionProjects\CS433_Assignment1\main.cpp -o CMakeFiles\CS433_Assignment1.dir\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\User\Github Repositories\CS433OperatingSystems\CS433OperatingSystems\CS433_Assignment1\main.cpp" -o CMakeFiles\CS433_Assignment1.dir\main.cpp.s
 
 CMakeFiles/CS433_Assignment1.dir/PCB.cpp.obj: CMakeFiles/CS433_Assignment1.dir/flags.make
 CMakeFiles/CS433_Assignment1.dir/PCB.cpp.obj: ../PCB.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\CLionProjects\CS433_Assignment1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CS433_Assignment1.dir/PCB.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CS433_Assignment1.dir\PCB.cpp.obj -c C:\Users\User\CLionProjects\CS433_Assignment1\PCB.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\User\Github Repositories\CS433OperatingSystems\CS433OperatingSystems\CS433_Assignment1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CS433_Assignment1.dir/PCB.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CS433_Assignment1.dir\PCB.cpp.obj -c "C:\Users\User\Github Repositories\CS433OperatingSystems\CS433OperatingSystems\CS433_Assignment1\PCB.cpp"
 
 CMakeFiles/CS433_Assignment1.dir/PCB.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS433_Assignment1.dir/PCB.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\CLionProjects\CS433_Assignment1\PCB.cpp > CMakeFiles\CS433_Assignment1.dir\PCB.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\User\Github Repositories\CS433OperatingSystems\CS433OperatingSystems\CS433_Assignment1\PCB.cpp" > CMakeFiles\CS433_Assignment1.dir\PCB.cpp.i
 
 CMakeFiles/CS433_Assignment1.dir/PCB.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS433_Assignment1.dir/PCB.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\CLionProjects\CS433_Assignment1\PCB.cpp -o CMakeFiles\CS433_Assignment1.dir\PCB.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\User\Github Repositories\CS433OperatingSystems\CS433OperatingSystems\CS433_Assignment1\PCB.cpp" -o CMakeFiles\CS433_Assignment1.dir\PCB.cpp.s
 
 CMakeFiles/CS433_Assignment1.dir/ReadyQueue.cpp.obj: CMakeFiles/CS433_Assignment1.dir/flags.make
 CMakeFiles/CS433_Assignment1.dir/ReadyQueue.cpp.obj: ../ReadyQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\CLionProjects\CS433_Assignment1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CS433_Assignment1.dir/ReadyQueue.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CS433_Assignment1.dir\ReadyQueue.cpp.obj -c C:\Users\User\CLionProjects\CS433_Assignment1\ReadyQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\User\Github Repositories\CS433OperatingSystems\CS433OperatingSystems\CS433_Assignment1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CS433_Assignment1.dir/ReadyQueue.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CS433_Assignment1.dir\ReadyQueue.cpp.obj -c "C:\Users\User\Github Repositories\CS433OperatingSystems\CS433OperatingSystems\CS433_Assignment1\ReadyQueue.cpp"
 
 CMakeFiles/CS433_Assignment1.dir/ReadyQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS433_Assignment1.dir/ReadyQueue.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\CLionProjects\CS433_Assignment1\ReadyQueue.cpp > CMakeFiles\CS433_Assignment1.dir\ReadyQueue.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\User\Github Repositories\CS433OperatingSystems\CS433OperatingSystems\CS433_Assignment1\ReadyQueue.cpp" > CMakeFiles\CS433_Assignment1.dir\ReadyQueue.cpp.i
 
 CMakeFiles/CS433_Assignment1.dir/ReadyQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS433_Assignment1.dir/ReadyQueue.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\CLionProjects\CS433_Assignment1\ReadyQueue.cpp -o CMakeFiles\CS433_Assignment1.dir\ReadyQueue.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\User\Github Repositories\CS433OperatingSystems\CS433OperatingSystems\CS433_Assignment1\ReadyQueue.cpp" -o CMakeFiles\CS433_Assignment1.dir\ReadyQueue.cpp.s
 
 # Object files for target CS433_Assignment1
 CS433_Assignment1_OBJECTS = \
@@ -111,7 +111,7 @@ CS433_Assignment1.exe: CMakeFiles/CS433_Assignment1.dir/build.make
 CS433_Assignment1.exe: CMakeFiles/CS433_Assignment1.dir/linklibs.rsp
 CS433_Assignment1.exe: CMakeFiles/CS433_Assignment1.dir/objects1.rsp
 CS433_Assignment1.exe: CMakeFiles/CS433_Assignment1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\User\CLionProjects\CS433_Assignment1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable CS433_Assignment1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\User\Github Repositories\CS433OperatingSystems\CS433OperatingSystems\CS433_Assignment1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable CS433_Assignment1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CS433_Assignment1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -124,6 +124,6 @@ CMakeFiles/CS433_Assignment1.dir/clean:
 .PHONY : CMakeFiles/CS433_Assignment1.dir/clean
 
 CMakeFiles/CS433_Assignment1.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\User\CLionProjects\CS433_Assignment1 C:\Users\User\CLionProjects\CS433_Assignment1 C:\Users\User\CLionProjects\CS433_Assignment1\cmake-build-debug C:\Users\User\CLionProjects\CS433_Assignment1\cmake-build-debug C:\Users\User\CLionProjects\CS433_Assignment1\cmake-build-debug\CMakeFiles\CS433_Assignment1.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\User\Github Repositories\CS433OperatingSystems\CS433OperatingSystems\CS433_Assignment1" "C:\Users\User\Github Repositories\CS433OperatingSystems\CS433OperatingSystems\CS433_Assignment1" "C:\Users\User\Github Repositories\CS433OperatingSystems\CS433OperatingSystems\CS433_Assignment1\cmake-build-debug" "C:\Users\User\Github Repositories\CS433OperatingSystems\CS433OperatingSystems\CS433_Assignment1\cmake-build-debug" "C:\Users\User\Github Repositories\CS433OperatingSystems\CS433OperatingSystems\CS433_Assignment1\cmake-build-debug\CMakeFiles\CS433_Assignment1.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/CS433_Assignment1.dir/depend
 
