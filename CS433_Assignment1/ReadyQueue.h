@@ -26,12 +26,12 @@ private:
     class Node { // private inner class Node for the linked list
     public:
         PCB *data;
-        Node *next, *previouse;
+        Node *next, *previous;
 
         Node(PCB *tempData, Node *nextNode, Node *previousNode){
             data = tempData;
             next = nextNode;
-            previouse = previousNode;
+            previous = previousNode;
         }
     };
 

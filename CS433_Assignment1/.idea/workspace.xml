@@ -15,30 +15,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReadyQueue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ReadyQueue.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReadyQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/ReadyQueue.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS433_Assignment1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS433_Assignment1.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS433_Assignment1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS433_Assignment1.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS433_Assignment1.dir/PCB.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS433_Assignment1.dir/PCB.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS433_Assignment1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS433_Assignment1.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS433_Assignment1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS433_Assignment1.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS433_Assignment1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS433_Assignment1.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CS433_Assignment1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CS433_Assignment1.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,61 +76,82 @@
       <workItem from="1580973416460" duration="1117000" />
       <workItem from="1581010979015" duration="800000" />
       <workItem from="1581105814227" duration="241000" />
-      <workItem from="1581447120466" duration="6473000" />
+      <workItem from="1581447120466" duration="7371000" />
     </task>
+    <task id="LOCAL-00001" summary="Priority Queue Implemented but has not been tested">
+      <created>1581485530792</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581485530792</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Priority Queue Implemented but has not been tested" />
+    <option name="LAST_COMMIT_MESSAGE" value="Priority Queue Implemented but has not been tested" />
   </component>
   <component name="WindowStateProjectService">
     <state x="464" y="100" key="#com.intellij.ide.util.MemberChooser" timestamp="1581450874003">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="464" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1581450874003" />
-    <state x="-405" y="-946" key="CommitChangelistDialog2" timestamp="1581485502495">
+    <state x="-405" y="-946" key="CommitChangelistDialog2" timestamp="1581485528563">
       <screen x="-860" y="-1080" width="1920" height="1080" />
     </state>
-    <state x="-405" y="-946" key="CommitChangelistDialog2/0.0.1366.768/-860.-1080.1920.1080@-860.-1080.1920.1080" timestamp="1581485502495" />
+    <state x="-405" y="-946" key="CommitChangelistDialog2/0.0.1366.768/-860.-1080.1920.1080@-860.-1080.1920.1080" timestamp="1581485528563" />
     <state x="462" y="138" key="FileChooserDialogImpl" timestamp="1581106030145">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="462" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1581106030145" />
-    <state width="1875" height="238" key="GridCell.Tab.0.bottom" timestamp="1581485502598">
+    <state width="1875" height="238" key="GridCell.Tab.0.bottom" timestamp="1581485642715">
       <screen x="-860" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1875" height="238" key="GridCell.Tab.0.bottom/0.0.1366.768/-860.-1080.1920.1080@-860.-1080.1920.1080" timestamp="1581485502598" />
+    <state width="1875" height="238" key="GridCell.Tab.0.bottom/0.0.1366.768/-860.-1080.1920.1080@-860.-1080.1920.1080" timestamp="1581485642715" />
     <state width="1321" height="191" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1581451146467" />
-    <state width="1875" height="238" key="GridCell.Tab.0.center" timestamp="1581485502597">
+    <state width="1875" height="238" key="GridCell.Tab.0.center" timestamp="1581485642714">
       <screen x="-860" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1875" height="238" key="GridCell.Tab.0.center/0.0.1366.768/-860.-1080.1920.1080@-860.-1080.1920.1080" timestamp="1581485502597" />
+    <state width="1875" height="238" key="GridCell.Tab.0.center/0.0.1366.768/-860.-1080.1920.1080@-860.-1080.1920.1080" timestamp="1581485642714" />
     <state width="1321" height="191" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1581451146467" />
-    <state width="1875" height="238" key="GridCell.Tab.0.left" timestamp="1581485502597">
+    <state width="1875" height="238" key="GridCell.Tab.0.left" timestamp="1581485642714">
       <screen x="-860" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1875" height="238" key="GridCell.Tab.0.left/0.0.1366.768/-860.-1080.1920.1080@-860.-1080.1920.1080" timestamp="1581485502597" />
+    <state width="1875" height="238" key="GridCell.Tab.0.left/0.0.1366.768/-860.-1080.1920.1080@-860.-1080.1920.1080" timestamp="1581485642714" />
     <state width="1321" height="191" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1581451146467" />
-    <state width="1875" height="238" key="GridCell.Tab.0.right" timestamp="1581485502597">
+    <state width="1875" height="238" key="GridCell.Tab.0.right" timestamp="1581485642715">
       <screen x="-860" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1875" height="238" key="GridCell.Tab.0.right/0.0.1366.768/-860.-1080.1920.1080@-860.-1080.1920.1080" timestamp="1581485502597" />
+    <state width="1875" height="238" key="GridCell.Tab.0.right/0.0.1366.768/-860.-1080.1920.1080@-860.-1080.1920.1080" timestamp="1581485642715" />
     <state width="1321" height="191" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1581451146467" />
     <state x="183" y="26" key="SettingsEditor" timestamp="1581011332572">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="183" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581011332572" />
+    <state x="-309" y="-807" key="Vcs.Push.Dialog.v2" timestamp="1581485547538">
+      <screen x="-860" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="-309" y="-807" key="Vcs.Push.Dialog.v2/0.0.1366.768/-860.-1080.1920.1080@-860.-1080.1920.1080" timestamp="1581485547538" />
     <state x="378" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1581447121612">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="378" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1581447121612" />
-    <state x="491" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581011351790">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="-170" y="-657" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581485633260">
+      <screen x="-860" y="-1080" width="1920" height="1080" />
     </state>
+    <state x="-170" y="-657" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768/-860.-1080.1920.1080@-860.-1080.1920.1080" timestamp="1581485633260" />
     <state x="491" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1581011351790" />
     <state x="423" y="27" key="refactoring.ChangeSignatureDialog" timestamp="1581450795085">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="423" y="27" key="refactoring.ChangeSignatureDialog/0.0.1366.768@0.0.1366.768" timestamp="1581450795085" />
+    <state x="-237" y="-845" width="672" height="678" key="search.everywhere.popup" timestamp="1581485618321">
+      <screen x="-860" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="-237" y="-845" width="672" height="678" key="search.everywhere.popup/0.0.1366.768/-860.-1080.1920.1080@-860.-1080.1920.1080" timestamp="1581485618321" />
   </component>
 </project>

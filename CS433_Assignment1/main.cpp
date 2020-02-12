@@ -18,5 +18,9 @@ int main(int argc, char* argv[]) {
     // TODO: Add your code for Test 2
     std::cout << "Performing Test 2" << std::endl;
 
+    ReadyQueue *test1 = new ReadyQueue();
+    
+
+
     return 0;
 }
