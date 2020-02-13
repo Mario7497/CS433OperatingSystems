@@ -6,9 +6,10 @@
 #include<time.h>
 #include "PCB.h"
 
-PCB::PCB(unsigned int id, unsigned int priority, ProcState state)
-: id(id), priority(priority), state(state){
-
+PCB::PCB(unsigned int id, unsigned int priority, ProcState state){
+    this->id = id;
+    this->priority = priority;
+    this->state = state;
 }
 
 PCB::~PCB() {

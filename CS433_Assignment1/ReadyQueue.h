@@ -29,8 +29,8 @@ private:
         Node *next, *previous;
 
         Node(PCB *tempData, Node *nextNode, Node *previousNode){
-            data = tempData;
-            next = nextNode;
+            data     = tempData;
+            next     = nextNode;
             previous = previousNode;
         }
     };
