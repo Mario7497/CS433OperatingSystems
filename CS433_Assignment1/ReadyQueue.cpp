@@ -10,6 +10,7 @@ ReadyQueue::ReadyQueue() {
 }
 
 void ReadyQueue::add(PCB *pcbPtr) {
+    pcbPtr->setState(ProcState::READY);
     if (size == 0) {
         //if the size is zero, initialize the head with data and make it point to itself
         Node *tmp = new Node(pcbPtr, nullptr, nullptr);
@@ -20,17 +21,48 @@ void ReadyQueue::add(PCB *pcbPtr) {
         //If the size is not zero then make the tail point to this node and set this
         //node as the new tail
         Node *tmp = new Node(pcbPtr, nullptr, nullptr);
-        tail->next = tmp;
-        tmp->previous = tail;
-        tail = tmp;
+        if (tmp->data->getPriority() < tail->data->getPriority()) {
+            // This case is when the new PCB is the least important and adds it
+            // to the tail
+            tail->next = tmp;
+            tmp->previous = tail;
+            tail = tmp;
+        } else if (tmp->data->getPriority() > tail->data->getPriority()) {
+            // This case is when the new PCB is the most important and adds it
+            // to the front of the linked list
+            head->previous = tmp;
+            tmp->next = head;
+            head = tmp;
+        } else {
+            // If neither of the cases are true then we're going to have to insert somewhere
+            // in the middle of the linked list
+            Node *right = head;
+            Node *left;
+            while (tmp->data->getPriority() <= right->data->getPriority()) {
+                right = right->next;
+            }
+            left = right->previous;
+            tmp->next = right;
+            tmp->previous = left;
+            left->next = tmp;
+            right->previous = tmp;
+        }
     }
     size++;
 }
 
 PCB *ReadyQueue::removeHighest() {
+    if (size == 0) {
+        std::cout << "Queue is empty, returning nullptr" << std::endl;
+        return nullptr;
+    }
     Node *tmp = head;
     head = head->next;
     head->previous = nullptr;
+    size--;
+
+    // Set state of process to running before returning the process pointer
+    tmp->data->setState(ProcState::RUNNING);
     return tmp->data;
 }
 
@@ -43,4 +75,10 @@ void ReadyQueue::display() {
 
 int ReadyQueue::getSize(){
     return size;
+}
+
+bool ReadyQueue::hasElement(PCB *pcbptr) {
+    Node *tmp = head;
+
+    return false;
 }

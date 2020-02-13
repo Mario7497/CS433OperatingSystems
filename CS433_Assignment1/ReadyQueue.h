@@ -56,6 +56,9 @@ public:
     // Prints the queue contents to standard output.
     void display();
 
+    // Check if element is in the queue
+    bool hasElement(PCB *pcbptr);
+
 };
 
 

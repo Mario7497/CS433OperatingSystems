@@ -3,6 +3,13 @@
 #include <sys/time.h>
 #include "ReadyQueue.h"
 
+/*
+ * Use  "-g"  compilation flag for g++ when debugging your program
+ * and "-O2" or "-O3" to generate optimized code for timing in test2
+ */
+
+int getRandoms();
+
 int main(int argc, char* argv[]) {
     //Print basic information about the program
     std::cout << "CS 433 Programming assignment 1" << std::endl;
@@ -18,11 +25,14 @@ int main(int argc, char* argv[]) {
     // TODO: Add your code for Test 1
     std::cout << "Performing Test 1" << std::endl;
     ReadyQueue *q1 = new ReadyQueue();
-    PCBTable *pcbTable = new PCBTable();
+    PCBTable *pcbTable1 = new PCBTable();
+    PCBTable *pcbTable2 = new PCBTable();
+    pcbTable1->initializeSeq();
+    pcbTable2->initializeRand();
 
     for (int i = 0; i < 5; ++i) {
         // Grab PCB element from PCBtable Object at index pcbID[i])+1 and add to queue
-        q1->add(pcbTable->getPCB_Element(pcbID[i]));
+        q1->add(pcbTable1->getPCB_Element(pcbID[i]));
     }
 
     std::cout << "End of Test 2" << std::endl;
@@ -30,6 +40,17 @@ int main(int argc, char* argv[]) {
     // TODO: Add your code for Test 2
     std::cout << "Performing Test 2" << std::endl;
 
+
+
     std::cout << "End of Test 2" << std::endl;
     return 0;
+}
+
+int getRandoms() {
+    srand(time(0));
+    int random[15];
+
+    for (int i = 0; i < 15; ++i) {
+
+    }
 }

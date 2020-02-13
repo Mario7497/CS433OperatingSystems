@@ -41,6 +41,14 @@ void PCB::setState(ProcState state) {
 
 
 PCBTable::PCBTable(){
+
+}
+
+PCB *PCBTable::getPCB_Element(int index) {
+    return table[index];
+}
+
+void PCBTable::initializeRand() {
     srand(time(0));
 
     for (int i = 0; i < 30; ++i) {
@@ -50,6 +58,11 @@ PCBTable::PCBTable(){
     }
 }
 
-PCB *PCBTable::getPCB_Element(int index) {
-    return table[index];
+void PCBTable::initializeSeq() {
+    for (int i = 0; i < 30; ++i) {
+        //populate PCB table with 30 new PCBs with random priority values
+        //and all ProcState initialized to NEW
+        table[i] = new PCB(i,i,ProcState::NEW);
+    }
+
 }

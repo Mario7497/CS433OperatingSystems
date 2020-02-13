@@ -7,7 +7,7 @@
 
 // enum class of process state
 // A process (PCB) in ready queue should be in READY state
-enum class ProcState {NEW, READY, RUNNING, WAITING, TERMINATED};
+enum class ProcState {NEW=0, READY, RUNNING, WAITING, TERMINATED};
 
 /*
 Process control block(PCB) is a data structure representing a process in the system.
@@ -50,6 +50,9 @@ private:
 
 public:
     PCBTable();
+
+    void initializeRand();
+    void initializeSeq();
 
     PCB* getPCB_Element(int index);
 };
