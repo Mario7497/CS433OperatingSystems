@@ -4,6 +4,7 @@
 
 #include <cstdlib>
 #include<time.h>
+#include<string>
 #include "PCB.h"
 
 PCB::PCB(unsigned int id, unsigned int priority, ProcState state){
@@ -37,6 +38,29 @@ ProcState PCB::getState() const {
 
 void PCB::setState(ProcState state) {
     PCB::state = state;
+}
+
+std::string PCB::getStateAsString() {
+    std::string out;
+    switch (state) {
+        case ProcState::NEW:
+            out = "NEW";
+            break;
+        case ProcState::READY:
+            out = "READY";
+            break;
+        case ProcState::RUNNING:
+            out = "RUNNING";
+            break;
+        case ProcState::WAITING:
+            out = "WAITING";
+            break;
+        case ProcState::TERMINATED:
+            out = "TERMINATED";
+            break;
+
+    }
+    return out;
 }
 
 

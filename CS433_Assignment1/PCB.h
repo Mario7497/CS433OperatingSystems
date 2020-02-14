@@ -35,6 +35,7 @@ public:
     unsigned int getPriority() const;
     void         setPriority(unsigned int priority);
     ProcState    getState() const;
+    std::string  getStateAsString();
     void         setState(ProcState state);
 };
 //=============================================================================================

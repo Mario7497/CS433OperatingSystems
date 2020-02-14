@@ -10,6 +10,7 @@ ReadyQueue::ReadyQueue() {
 }
 
 void ReadyQueue::add(PCB *pcbPtr) {
+
     pcbPtr->setState(ProcState::READY);
     if (size == 0) {
         //if the size is zero, initialize the head with data and make it point to itself
@@ -27,7 +28,7 @@ void ReadyQueue::add(PCB *pcbPtr) {
             tail->next = tmp;
             tmp->previous = tail;
             tail = tmp;
-        } else if (tmp->data->getPriority() > tail->data->getPriority()) {
+        } else if (tmp->data->getPriority() > head->data->getPriority()) {
             // This case is when the new PCB is the most important and adds it
             // to the front of the linked list
             head->previous = tmp;
@@ -38,7 +39,7 @@ void ReadyQueue::add(PCB *pcbPtr) {
             // in the middle of the linked list
             Node *right = head;
             Node *left;
-            while (tmp->data->getPriority() <= right->data->getPriority()) {
+            while (tmp->data->getPriority() < right->data->getPriority()) {
                 right = right->next;
             }
             left = right->previous;
@@ -69,7 +70,10 @@ PCB *ReadyQueue::removeHighest() {
 void ReadyQueue::display() {
     Node *tmp = head;
     while ( tmp != nullptr) {
-        std::cout << tmp->data->id;
+        std::cout << "Process: "<< tmp->data->id;
+        std::cout << " Priority: " << tmp->data->priority;
+        std::cout << " State: " << tmp->data->getStateAsString() << std::endl;
+        tmp = tmp->next;
     }
 }
 

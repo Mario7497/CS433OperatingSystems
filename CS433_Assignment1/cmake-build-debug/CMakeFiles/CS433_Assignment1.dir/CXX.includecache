@@ -19,6 +19,8 @@ cstdlib
 -
 sys/time.h
 -
+vector
+-
 ReadyQueue.h
 C:/Users/User/Github Repositories/CS433OperatingSystems/CS433OperatingSystems/CS433_Assignment1/ReadyQueue.h
 

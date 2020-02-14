@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <sys/time.h>
+#include <vector>
 #include "ReadyQueue.h"
 
 /*
@@ -8,7 +9,7 @@
  * and "-O2" or "-O3" to generate optimized code for timing in test2
  */
 
-int getRandoms();
+void getRandomPCBs(ReadyQueue *q, PCBTable *table);
 
 int main(int argc, char* argv[]) {
     //Print basic information about the program
@@ -20,37 +21,52 @@ int main(int argc, char* argv[]) {
     std::cout << "=================================" << std::endl;
 
     //These Process IDs are the ones to be loaded into the Priority Queue
-    int pcbID[] = {15, 6, 23, 29, 8, 3, 17, 22, 12, 19};
-
-    // TODO: Add your code for Test 1
-    std::cout << "Performing Test 1" << std::endl;
+    int pcbIDs[] = {15, 6, 23, 29, 8, 3, 17, 22, 12, 19};
     ReadyQueue *q1 = new ReadyQueue();
+    ReadyQueue *q2 = new ReadyQueue();
     PCBTable *pcbTable1 = new PCBTable();
     PCBTable *pcbTable2 = new PCBTable();
     pcbTable1->initializeSeq();
     pcbTable2->initializeRand();
 
+    // TODO: Add your code for Test 1
+    std::cout << "Performing Test 1" << std::endl;
+
+
     for (int i = 0; i < 5; ++i) {
         // Grab PCB element from PCBtable Object at index pcbID[i])+1 and add to queue
-        q1->add(pcbTable1->getPCB_Element(pcbID[i]));
+        q1->add(pcbTable1->getPCB_Element(pcbIDs[i]));
     }
+    q1->display();
 
-    std::cout << "End of Test 2" << std::endl;
+    std::cout << "End of Test 1" << std::endl;
 
     // TODO: Add your code for Test 2
     std::cout << "Performing Test 2" << std::endl;
-
+    //Initialize the test with 30 using getRandomPCBs
+    getRandomPCBs(q2, pcbTable2);
+    std::cout << "Queue 2 before test 2 starts" << std::endl;
+    q2->display();
 
 
     std::cout << "End of Test 2" << std::endl;
     return 0;
 }
 
-int getRandoms() {
+void getRandomPCBs(ReadyQueue *q, PCBTable *table) {
     srand(time(0));
-    int random[15];
+    std::vector<int> processIDs(30);
+    int index;
+    PCB *pcb;
 
-    for (int i = 0; i < 15; ++i) {
-
+    for (int i = 0; i < 30; ++i) {
+        processIDs.push_back(i);
+    }
+    for (int j = 0; j < 15; ++j) {
+        index = rand()%processIDs.size();
+        pcb = table->getPCB_Element(index);
+        pcb->setState(ProcState::READY);
+        q->add(pcb);
+        processIDs.erase(processIDs.begin() + index);
     }
 }
